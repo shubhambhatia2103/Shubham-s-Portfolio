@@ -40,7 +40,7 @@ function Body() {
     <div className="space-y-16 lg:space-y-20 mb-16 sm:mt-2 ">
       <div className="flex items-center justify-center">
         <div className="border-2 w-60 h-w-80 border-slate-100 shadow-xl rounded-full overflow-hidden animate-blob">
-          <img src="src/assets/profilePic1.jpg" alt="profile" className="w-full h-full object-cover" />
+          <img src="/src/assets/profilePic.jpg" alt="profile" className="w-full h-full object-cover" />
         </div>
       </div>
       <div className="flex flex-col items-center justify-center space-y-6 ">
