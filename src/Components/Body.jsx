@@ -119,8 +119,11 @@ function Body() {
             <li className="bg-sky-300 rounded-full px-2 py-1">NumPy</li>
             <li className="text-lg hover:text-xl"><a href="https://github.com/shubhambhatia2103/Twitter-Sentiment-Analysis" target="_blank"><FaGithub /></a></li>
           </ul>
-          <p className="text-justify text-sm">Developed a Machine learning model to analyze the sentiment of tweets using the Natural Language Toolkit (NLTK) library in Python. 
-            The model was trained on a dataset of 1.6 million tweets and achieved an accuracy of 85%.
+          <p className="text-justify text-sm">Led the development of a mobile platform to enhance resident engagement through 
+            user and market research. Prototyped key features like a maintenance request tracker and event calendar, improving coordination and reducing
+             response times. Created high-fidelity wireframes in Figma and developed a comprehensive Product Requirements Document (PRD) in Notion 
+             for stakeholder alignment. Achieved a 40% reduction in maintenance response time, a 20% increase in event participation, 
+            and a 25% improvement in operational efficiency, demonstrating my ability to drive product development effectively.
           </p>
         </div>
 
