@@ -75,10 +75,7 @@ function Body() {
         </div>
 
         <div className="text-base/[22px] md:text-base/7 lg:text-lg space-y-3 text-justify font-lato lg:space-y-6 text-gray-900">
-          <p>
-You're right, there's quite a bit of repetition. Here's a revised version that reduces the use of "I" while keeping the same message and flow:
-
-I’m Shubham Bhatia, deeply passionate about product management and bridging technical expertise with user-centric design.
+          <p>I’m Shubham Bhatia, deeply passionate about product management and bridging technical expertise with user-centric design.
  Fully focused on building meaningful products, it's exciting to bring ideas to life—whether through feature prioritization, 
  roadmapping, or A/B testing.
  Every decision is made with a keen appreciation for user experience, seamless functionality, and delivering meaningful value.
