@@ -110,13 +110,12 @@ function Body() {
           <div className="h-36 w-full overflow-hidden flex justify-center items-center">
             <img src={project1} alt="Twitter Sentiment Analysis" />
           </div>
-          <h1 className="text-lg font-semibold">Twitter Sentiment Analysis</h1>
+          <h1 className="text-lg font-semibold">Community Connect App</h1>
           <ul className="flex flex-wrap items-center gap-2 text-xs">
-            <li className="bg-sky-300 rounded-full px-2 py-1">Python</li>
-            <li className="bg-sky-300 rounded-full px-2 py-1">NLTK</li>
-            <li className="bg-sky-300 rounded-full px-2 py-1">ML</li>
-            <li className="bg-sky-300 rounded-full px-2 py-1">Pandas</li>
-            <li className="bg-sky-300 rounded-full px-2 py-1">NumPy</li>
+            <li className="bg-sky-300 rounded-full px-2 py-1">Figma</li>
+            <li className="bg-sky-300 rounded-full px-2 py-1">Wireframing</li>
+            <li className="bg-sky-300 rounded-full px-2 py-1">PRD</li>
+            <li className="bg-sky-300 rounded-full px-2 py-1">Notion</li>
             <li className="text-lg hover:text-xl"><a href="https://github.com/shubhambhatia2103/Twitter-Sentiment-Analysis" target="_blank"><FaGithub /></a></li>
           </ul>
           <p className="text-justify text-sm">Led the development of a mobile platform to enhance resident engagement through 
