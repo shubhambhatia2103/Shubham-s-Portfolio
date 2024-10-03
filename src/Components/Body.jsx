@@ -50,7 +50,7 @@ function Body() {
         </div>
       </div>
       <div className="flex flex-col items-center justify-center space-y-6 ">
-        <h1 className="text-3xl text-center font-bold font-playFair md:text-4xl lg:text-5xl px-10 lg:px-6">I am a <span className="font-cursive">Cloud</span> and <span className="font-cursive">Data  Engineer</span></h1>
+        <h1 className="text-3xl text-center font-bold font-playFair md:text-4xl lg:text-5xl px-10 lg:px-6">I am a <span className="font-cursive">Product</span><span className="font-cursive">Engineer</span></h1>
         <p className="text-center font-lato text-gray-800 italic lg:text-xl">Building Data-Driven Products with Purpose</p>
         <a href="#about" >
           <div className="flex items-center justify-center gap-2 text-sm font-mono px-2 py-1 rounded-full border border-black hover:border-2 hover:border-blue-500 hover:text-blue-500 lg:text-base lg:px-4 lg:py-2 lg:rounded-full">
@@ -75,18 +75,22 @@ function Body() {
         </div>
 
         <div className="text-base/[22px] md:text-base/7 lg:text-lg space-y-3 text-justify font-lato lg:space-y-6 text-gray-900">
-          <p>I'm Shubham Bhatia, a tech enthusiast with a strong foundation in data engineering and a growing passion for product management. 
-            I hold a Bachelor’s in Information Technology and have gained hands-on experience in a range of technologies, from Python, SQL, and 
-            Bash Scripting to AWS services like S3, Lambda, and QuickSight.
+          <p>I’m Shubham Bhatia, and I’m deeply passionate about product management. I enjoys bridging technical expertise and user-centric design.
+             I am fully focused on building meaningful products. And what thrills me the most is bringing ideas to life through 
+             feature prioritization, making a road map, or A/B testing.
+             So, I make every decision with deep appreciation for user experience, seamless functionality, and delivering meaningful value.
           </p>
 
-          <p>I thrive on solving complex problems, as seen in my projects like Netflix Catalog Trends Visualization, 
-            where I designed interactive visualizations using Amazon QuickSight, and Conversational-Chatbot-Groq, 
-            where I integrated advanced NLP tools to create smarter customer support solutions.
+          <p>My journey began back in 2020, and since then I grew into the role that would really allow me to align data-driven insights 
+            with product strategies. I make sure that there is seamless connection of the technical and product sides by using strong cloud technologies
+             like AWS, along with tools such as Figma and Jira. Now, I am four years ahead
+             and using my experience in pushing boundaries and creating products that are not only efficient but also intuitive and user-friendly.
           </p>
 
-          <p>With a solid background in data analysis, cloud tools, and machine learning frameworks, I’m eager to bring this expertise to a 
-            dynamic team where I can contribute to impactful projects and develop my skills in product management.
+          <p>Outside of work, you can generally find me messing around in the kitchen trying out a new recipe or finding a just-so way 
+            to relax with some jazz playing in the background. I'm also deeply inspired by stoic philosophy and find it really helps me stay grounded, 
+            which is a little bit of a lifesaver when it's crunch time with a product cycle. 
+            Feel free to connect with me on LinkedIn or check out my GitHub here where I share my latest projects and ideas!
           </p>
         </div>
 
