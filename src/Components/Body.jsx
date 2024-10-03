@@ -120,9 +120,7 @@ function Body() {
           </ul>
           <p className="text-justify text-sm">Led the development of a mobile platform to enhance resident engagement through 
             user and market research. Prototyped key features like a maintenance request tracker and event calendar, improving coordination and reducing
-             response times. Created high-fidelity wireframes in Figma and developed a comprehensive Product Requirements Document (PRD) in Notion 
-             for stakeholder alignment. Achieved a 40% reduction in maintenance response time, a 20% increase in event participation, 
-            and a 25% improvement in operational efficiency, demonstrating my ability to drive product development effectively.
+             response times.
           </p>
         </div>
 
