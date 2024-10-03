@@ -1,6 +1,7 @@
 // import React from 'react'
 import { useState } from 'react';
 import { FaArrowRight, FaGithub } from "react-icons/fa";
+import { FaMedium } from "react-icons/fa6";
 
 import profilePic from '../assets/profilePic.jpg';
 import project1 from '../assets/project 1.jpg';
@@ -116,11 +117,12 @@ function Body() {
             <li className="bg-sky-300 rounded-full px-2 py-1">Wireframing</li>
             <li className="bg-sky-300 rounded-full px-2 py-1">PRD</li>
             <li className="bg-sky-300 rounded-full px-2 py-1">Notion</li>
-            <li className="text-lg hover:text-xl"><a href="https://github.com/shubhambhatia2103/Twitter-Sentiment-Analysis" target="_blank"><FaGithub /></a></li>
+            <li className="text-lg hover:text-xl"><a href="https://github.com/shubhambhatia2103/Build-a-Virtual-Private-Cloud" target="_blank"><FaGithub /></a></li>
+            <li className="text-lg hover:text-xl"><a href="https://medium.com/@shubhambhatia2103/building-the-community-connect-app-applying-product-sense-and-strategy-df1eecbc64bb" target="_blank"><FaMedium /></a></li>
           </ul>
-          <p className="text-justify text-sm">Led the development of a mobile platform to enhance resident engagement through 
-            user and market research. Prototyped key features like a maintenance request tracker and event calendar, improving coordination and reducing
-             response times.
+          <p className="text-justify text-sm">Led the development of a mobile platform to boost resident engagement, with features like a 
+            maintenance tracker and event calendar. Created wireframes in Figma and a PRD in Notion, 
+            resulting in a 40% faster maintenance response, 20% higher event participation, and 25% better operational efficiency.
           </p>
         </div>
 
@@ -136,6 +138,7 @@ function Body() {
         
             
             <li className="text-lg hover:text-xl"><a href="https://github.com/shubhambhatia2103/Visualize-data-with-AWS-QuickSight" target="_blank"><FaGithub /></a></li>
+            <li className="text-lg hover:text-xl"><a href="https://medium.com/@shubhambhatia2103/unlocking-insights-visualizing-netflixs-content-trends-with-amazon-quicksight-2df068443708" target="_blank"><FaMedium /></a></li>
           </ul>
           <p className="text-justify text-sm">
             In this project, I explored Amazon QuickSight, a powerful business analytics service provided by AWS, to visualize and analyze Netflix&apos;s catalog trends.
@@ -155,6 +158,7 @@ function Body() {
             <li className="bg-sky-300 rounded-full px-2 py-1">LangChain</li>
             <li className="bg-sky-300 rounded-full px-2 py-1">LLM</li>
             <li className="text-lg hover:text-xl"><a href="https://github.com/shubhambhatia2103/Conversational-Chatbot-Groq" target="_blank"><FaGithub /></a></li>
+            <li className="text-lg hover:text-xl"><a href="https://medium.com/@shubhambhatia2103" target="_blank"><FaMedium /></a></li>
           </ul>
           <p className="text-justify text-sm">
           This is a Streamlit-based app that allows users to interact with a conversational chatbot powered by the LangChain API. 
@@ -173,6 +177,7 @@ function Body() {
             <li className="bg-sky-300 rounded-full px-2 py-1">Subnet Management</li>
             <li className="bg-sky-300 rounded-full px-2 py-1">Security Group Configuration</li>
             <li className="text-lg hover:text-xl"><a href="https://github.com/shubhambhatia2103/Build-a-Virtual-Private-Cloud" target="_blank"><FaGithub /></a></li>
+            <li className="text-lg hover:text-xl"><a href="https://medium.com/@shubhambhatia2103" target="_blank"><FaMedium /></a></li>
           </ul>
           <p className="text-justify text-sm">
           I designed a Virtual Private Cloud (VPC) on AWS, creating a public subnet with automatic IP assignment for accessible 
