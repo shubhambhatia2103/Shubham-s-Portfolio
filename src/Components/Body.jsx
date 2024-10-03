@@ -75,22 +75,25 @@ function Body() {
         </div>
 
         <div className="text-base/[22px] md:text-base/7 lg:text-lg space-y-3 text-justify font-lato lg:space-y-6 text-gray-900">
-          <p>I’m Shubham Bhatia, and I’m deeply passionate about product management. I enjoys bridging technical expertise and user-centric design.
-             I am fully focused on building meaningful products. And what thrills me the most is bringing ideas to life through 
-             feature prioritization, making a road map, or A/B testing.
-             So, I make every decision with deep appreciation for user experience, seamless functionality, and delivering meaningful value.
+          <p>
+You're right, there's quite a bit of repetition. Here's a revised version that reduces the use of "I" while keeping the same message and flow:
+
+I’m Shubham Bhatia, deeply passionate about product management and bridging technical expertise with user-centric design.
+ Fully focused on building meaningful products, it's exciting to bring ideas to life—whether through feature prioritization, 
+ roadmapping, or A/B testing.
+ Every decision is made with a keen appreciation for user experience, seamless functionality, and delivering meaningful value.
           </p>
 
-          <p>My journey began back in 2020, and since then I grew into the role that would really allow me to align data-driven insights 
-            with product strategies. I make sure that there is seamless connection of the technical and product sides by using strong cloud technologies
-             like AWS, along with tools such as Figma and Jira. Now, I am four years ahead
-             and using my experience in pushing boundaries and creating products that are not only efficient but also intuitive and user-friendly.
+          <p>The journey began in 2020, and over time, I've grown into a role that aligns data-driven insights with product strategies.
+             By leveraging strong cloud technologies like AWS and tools such as Figma, the aim is always to ensure a seamless connection between the 
+             technical and product sides.
+             Now, with four years of relevent experience, the focus is on pushing boundaries to create products that are efficient, intuitive, and user-friendly.
           </p>
 
           <p>Outside of work, you can generally find me messing around in the kitchen trying out a new recipe or finding a just-so way 
             to relax with some jazz playing in the background. I'm also deeply inspired by stoic philosophy and find it really helps me stay grounded, 
             which is a little bit of a lifesaver when it's crunch time with a product cycle. 
-            Feel free to connect with me on LinkedIn or check out my GitHub here where I share my latest projects and ideas!
+            Feel free to connect with me on LinkedIn or check out my GitHub where I share my latest projects and ideas!
           </p>
         </div>
 
