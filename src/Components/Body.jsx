@@ -50,7 +50,7 @@ function Body() {
         </div>
       </div>
       <div className="flex flex-col items-center justify-center space-y-6 ">
-        <h1 className="text-3xl text-center font-bold font-playFair md:text-4xl lg:text-5xl px-10 lg:px-6">I am a <span className="font-cursive">Product</span><span className="font-cursive">Engineer</span></h1>
+        <h1 className="text-3xl text-center font-bold font-playFair md:text-4xl lg:text-5xl px-10 lg:px-6">I am a <span className="font-cursive">Product</span> Engineer</h1>
         <p className="text-center font-lato text-gray-800 italic lg:text-xl">Building Data-Driven Products with Purpose</p>
         <a href="#about" >
           <div className="flex items-center justify-center gap-2 text-sm font-mono px-2 py-1 rounded-full border border-black hover:border-2 hover:border-blue-500 hover:text-blue-500 lg:text-base lg:px-4 lg:py-2 lg:rounded-full">
