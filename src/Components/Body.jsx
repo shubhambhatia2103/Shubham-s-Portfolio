@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { FaArrowRight, FaGithub } from "react-icons/fa";
 
 import profilePic from '../assets/profilePic.jpg';
-import project1 from '../assets/project 1.jpg';
+import project1 from 'assets\project 1.jpg';
 import pr2 from '../assets/project 2.jpg';
 import pr3 from '../assets/project 3.jpg';
 import pr4 from '../assets/project 4.jpg';
