@@ -158,7 +158,7 @@ function Body() {
             <li className="bg-sky-300 rounded-full px-2 py-1">LangChain</li>
             <li className="bg-sky-300 rounded-full px-2 py-1">LLM</li>
             <li className="text-lg hover:text-xl"><a href="https://github.com/shubhambhatia2103/Conversational-Chatbot-Groq" target="_blank"><FaGithub /></a></li>
-            <li className="text-lg hover:text-xl"><a href="https://medium.com/@shubhambhatia2103" target="_blank"><FaMedium /></a></li>
+            <li className="text-lg hover:text-xl"><a href="https://medium.com/@shubhambhatia2103/building-a-conversational-chatbot-with-groq-and-langchain-a-step-by-step-guide-cb6fc9895dc0" target="_blank"><FaMedium /></a></li>
           </ul>
           <p className="text-justify text-sm">
           This is a Streamlit-based app that allows users to interact with a conversational chatbot powered by the LangChain API. 
@@ -177,7 +177,7 @@ function Body() {
             <li className="bg-sky-300 rounded-full px-2 py-1">Subnet Management</li>
             <li className="bg-sky-300 rounded-full px-2 py-1">Security Group Configuration</li>
             <li className="text-lg hover:text-xl"><a href="https://github.com/shubhambhatia2103/Build-a-Virtual-Private-Cloud" target="_blank"><FaGithub /></a></li>
-            <li className="text-lg hover:text-xl"><a href="https://medium.com/@shubhambhatia2103" target="_blank"><FaMedium /></a></li>
+            <li className="text-lg hover:text-xl"><a href="https://medium.com/@shubhambhatia2103/creating-a-secure-and-scalable-vpc-a-product-managers-perspective-9033fd7d580f" target="_blank"><FaMedium /></a></li>
           </ul>
           <p className="text-justify text-sm">
           I designed a Virtual Private Cloud (VPC) on AWS, creating a public subnet with automatic IP assignment for accessible 
