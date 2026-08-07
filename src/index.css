@@ -10,3 +10,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background-color: rgb(99 102 241 / 0.3);
+}

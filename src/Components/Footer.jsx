@@ -1,28 +1,36 @@
-// import React from 'react'
+import { FaGithub, FaLinkedin, FaInstagram, FaXTwitter } from "react-icons/fa6";
+
+const links = [
+  { href: "https://github.com/shubhambhatia2103", label: "GitHub", icon: FaGithub },
+  { href: "https://www.linkedin.com/in/shubhambhatia2103/", label: "LinkedIn", icon: FaLinkedin },
+  { href: "https://www.instagram.com/6eingshubham/", label: "Instagram", icon: FaInstagram },
+  { href: "https://x.com/whoodattboyy", label: "Twitter", icon: FaXTwitter },
+];
 
 function Footer() {
   return (
-    <div className="space-y-6">
-      <hr />
-      <ul className="font-lato flex gap-10 items-center justify-center md:gap-28 ">
-        <li className="text-slate-600 hover:text-slate-700 hover:font-semibold">
-          <a href="https://github.com/shubhambhatia2103" target="_blank">Github</a>
-        </li>
-        <li className="text-slate-600 hover:text-slate-700 hover:font-semibold">
-          <a href="https://www.linkedin.com/in/shubhambhatia2103/" target="_blank">LinkedIn</a>
-        </li>
-        <li className="text-slate-600 hover:text-slate-700 hover:font-semibold">
-          <a href="https://www.instagram.com/6eingshubham/" target="_blank">Instagram</a>
-        </li>
-        <li className="text-slate-600 hover:text-slate-700 hover:font-semibold">
-          <a href="https://x.com/whoodattboyy" target="_blank">Twitter</a>
-        </li>
+    <footer className="space-y-6 py-8 border-t border-slate-200 dark:border-slate-800">
+      <ul className="flex items-center justify-center gap-6 md:gap-10">
+        {links.map(({ href, label, icon: Icon }) => (
+          <li key={label}>
+            <a
+              href={href}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={label}
+              className="flex items-center gap-2 text-slate-500 dark:text-slate-400 hover:text-indigo-500 dark:hover:text-indigo-400 transition-colors duration-200"
+            >
+              <Icon size={18} />
+              <span className="hidden sm:inline font-lato text-sm">{label}</span>
+            </a>
+          </li>
+        ))}
       </ul>
-      <div >
-        <p className="text-center mb-3">© 2024 All rights reserved</p>
-      </div>
-    </div>
-  )
+      <p className="text-center text-sm text-slate-400 dark:text-slate-500 font-lato">
+        © {new Date().getFullYear()} Shubham Bhatia. All rights reserved.
+      </p>
+    </footer>
+  );
 }
 
-export default Footer
+export default Footer;
