@@ -10,7 +10,7 @@ function App() {
   const [isDark, setIsDark] = useDarkMode();
 
   return (
-    <div className="min-h-screen bg-slate-50 dark:bg-slate-900 transition-colors duration-300">
+    <div className="min-h-screen bg-surface dark:bg-surface-dark transition-colors duration-300">
       <Navbar isDark={isDark} setIsDark={setIsDark} />
       <div className="px-5 pb-10 flex flex-col gap-16 md:px-10 lg:px-20">
         <Hero />

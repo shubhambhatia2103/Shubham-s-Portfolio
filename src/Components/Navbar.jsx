@@ -30,17 +30,15 @@ function Navbar({ isDark, setIsDark }) {
 
   return (
     <header
-      className={`sticky top-0 z-50 transition-all duration-300 ${
-        isScrolled
-          ? "bg-white/80 dark:bg-slate-900/80 backdrop-blur-md shadow-sm shadow-slate-900/5"
-          : "bg-transparent"
+      className={`sticky top-0 z-50 bg-navy dark:bg-surface-dark-elevated transition-shadow duration-300 ${
+        isScrolled ? "shadow-md shadow-navy/20" : ""
       }`}
     >
       <div className="flex items-center justify-between px-5 py-4 md:px-10 lg:px-20">
         <div className="flex items-center gap-3 lg:gap-5">
           <a href="#">
-            <h1 className="text-xl font-bold text-slate-900 dark:text-white lg:text-2xl">
-              Shubham <span className="text-indigo-500 font-cursive">Bhatia</span>
+            <h1 className="text-xl font-bold text-body-dark lg:text-2xl">
+              Shubham <span className="text-accent-dark font-cursive">Bhatia</span>
             </h1>
           </a>
           <a
@@ -50,21 +48,21 @@ function Navbar({ isDark, setIsDark }) {
           >
             <button
               type="button"
-              className="bg-gradient-to-r from-indigo-500 to-sky-400 hover:from-fuchsia-500 hover:to-orange-400 text-white text-xs font-semibold px-2.5 py-1 rounded-full transition-all duration-300 lg:text-sm lg:px-3"
+              className="bg-surface-elevated text-navy hover:bg-surface text-xs font-semibold px-2.5 py-1 rounded-full transition-colors duration-200 lg:text-sm lg:px-3"
             >
               Resume
             </button>
           </a>
         </div>
 
-        <nav className="hidden lg:flex items-center gap-8 font-lato text-slate-600 dark:text-slate-300">
+        <nav className="hidden lg:flex items-center gap-8 font-lato text-body-dark/80">
           {menuItems.map((item) => (
             <a
               key={item.id}
               href={item.href}
-              className={`relative py-1 transition-colors duration-200 hover:text-slate-900 dark:hover:text-white before:absolute before:bottom-[-4px] before:left-0 before:h-[1.5px] before:bg-indigo-500 before:transition-all before:duration-300 before:ease-in-out ${
+              className={`relative py-1 transition-colors duration-200 hover:text-body-dark before:absolute before:bottom-[-4px] before:left-0 before:h-[1.5px] before:bg-accent-dark before:transition-all before:duration-300 before:ease-in-out ${
                 activeId === item.id
-                  ? "text-slate-900 dark:text-white before:w-full"
+                  ? "text-body-dark before:w-full"
                   : "before:w-0 hover:before:w-full"
               }`}
             >
@@ -78,12 +76,12 @@ function Navbar({ isDark, setIsDark }) {
             type="button"
             onClick={() => setIsDark(!isDark)}
             aria-label="Toggle dark mode"
-            className="rounded-full p-2 text-slate-600 dark:text-slate-300 hover:bg-slate-900/5 dark:hover:bg-white/10 transition-colors duration-200"
+            className="rounded-full p-2 text-body-dark/80 hover:bg-white/10 hover:text-body-dark transition-colors duration-200"
           >
             {isDark ? <FaSun /> : <FaMoon />}
           </button>
           <button
-            className="lg:hidden z-50 text-slate-800 dark:text-white"
+            className="lg:hidden z-50 text-body-dark"
             onClick={() => setIsMenuOpen((open) => !open)}
             aria-label="Toggle menu"
           >
@@ -96,14 +94,14 @@ function Navbar({ isDark, setIsDark }) {
         {isMenuOpen && (
           <>
             <motion.div
-              className="fixed inset-0 bg-slate-900/50 backdrop-blur-sm z-30 lg:hidden"
+              className="fixed inset-0 bg-navy/60 backdrop-blur-sm z-30 lg:hidden"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               onClick={() => setIsMenuOpen(false)}
             />
             <motion.nav
-              className="fixed top-0 right-0 bottom-0 flex flex-col justify-center gap-2 bg-white dark:bg-slate-900 w-64 p-8 z-40 lg:hidden"
+              className="fixed top-0 right-0 bottom-0 flex flex-col justify-center gap-2 bg-navy dark:bg-surface-dark-elevated w-64 p-8 z-40 lg:hidden"
               initial={{ x: "100%" }}
               animate={{ x: 0 }}
               exit={{ x: "100%" }}
@@ -113,10 +111,10 @@ function Navbar({ isDark, setIsDark }) {
                 <a
                   key={item.id}
                   href={item.href}
-                  className={`py-3 text-lg font-lato border-b border-slate-100 dark:border-slate-800 transition-colors duration-200 ${
+                  className={`py-3 text-lg font-lato border-b border-line-dark transition-colors duration-200 ${
                     activeId === item.id
-                      ? "text-indigo-500 font-semibold"
-                      : "text-slate-700 dark:text-slate-200"
+                      ? "text-accent-dark font-semibold"
+                      : "text-body-dark/80"
                   }`}
                   onClick={() => setIsMenuOpen(false)}
                 >

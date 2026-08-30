@@ -53,7 +53,7 @@ function Projects() {
   return (
     <section id="projects" className="scroll-mt-24 py-6 md:py-7 lg:py-14">
       <Reveal>
-        <h2 className="text-2xl md:text-3xl lg:text-4xl text-center font-bold font-playFair text-slate-900 dark:text-white">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl text-center font-bold font-playFair text-navy dark:text-body-dark">
           Projects
         </h2>
       </Reveal>
@@ -61,37 +61,37 @@ function Projects() {
       <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4">
         {projects.map((project, index) => (
           <Reveal key={project.title} delay={(index % 4) * 0.08}>
-            <div className="group flex h-full flex-col gap-3 rounded-2xl bg-white dark:bg-slate-800/40 border border-transparent dark:border-slate-700/50 shadow-lg shadow-slate-900/5 dark:shadow-none px-5 py-6 transition-all duration-300 hover:-translate-y-1.5 hover:shadow-xl hover:shadow-indigo-500/10">
-              <div className="h-36 w-full overflow-hidden rounded-lg flex items-center justify-center bg-slate-50 dark:bg-slate-900/40">
+            <div className="group flex h-full flex-col gap-3 rounded-2xl bg-surface-elevated dark:bg-surface-dark-elevated border border-transparent dark:border-line-dark shadow-lg shadow-navy/5 dark:shadow-none px-5 py-6 transition-all duration-300 hover:-translate-y-1.5 hover:shadow-xl hover:shadow-accent/10">
+              <div className="h-36 w-full overflow-hidden rounded-lg flex items-center justify-center bg-surface dark:bg-surface-dark">
                 <img
                   src={project.image}
                   alt={project.title}
                   className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
                 />
               </div>
-              <h3 className="font-lato text-lg font-semibold text-slate-900 dark:text-white">
+              <h3 className="font-lato text-lg font-semibold text-navy dark:text-body-dark">
                 {project.title}
               </h3>
               <ul className="flex flex-wrap items-center gap-2 text-xs">
                 {project.tags.map((tag) => (
                   <li
                     key={tag}
-                    className="rounded-full bg-indigo-50 dark:bg-indigo-500/10 px-2 py-1 text-indigo-700 dark:text-indigo-300 font-medium"
+                    className="rounded-full bg-accent/10 dark:bg-accent/10 px-2 py-1 text-accent-text dark:text-accent-dark font-medium"
                   >
                     {tag}
                   </li>
                 ))}
               </ul>
-              <p className="flex-1 text-justify font-lato text-sm text-slate-600 dark:text-slate-300">
+              <p className="flex-1 text-justify font-lato text-sm text-body dark:text-muted-dark">
                 {project.description}
               </p>
-              <div className="flex items-center gap-4 pt-1 text-lg text-slate-600 dark:text-slate-300">
+              <div className="flex items-center gap-4 pt-1 text-lg text-body dark:text-muted-dark">
                 <a
                   href={project.github}
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={`${project.title} on GitHub`}
-                  className="hover:text-indigo-500 transition-colors duration-200"
+                  className="hover:text-accent-text dark:hover:text-accent-dark transition-colors duration-200"
                 >
                   <FaGithub />
                 </a>
@@ -100,7 +100,7 @@ function Projects() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={`${project.title} write-up on Medium`}
-                  className="hover:text-indigo-500 transition-colors duration-200"
+                  className="hover:text-accent-text dark:hover:text-accent-dark transition-colors duration-200"
                 >
                   <FaMedium />
                 </a>

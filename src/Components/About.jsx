@@ -7,10 +7,10 @@ function About() {
   return (
     <section
       id="about"
-      className="scroll-mt-24 rounded-2xl bg-white dark:bg-slate-800/40 shadow-xl shadow-slate-900/5 dark:shadow-none border border-transparent dark:border-slate-700/50 px-4 py-6 md:px-6 md:py-7 lg:px-10 lg:py-14"
+      className="scroll-mt-24 rounded-2xl bg-surface-elevated dark:bg-surface-dark-elevated shadow-xl shadow-navy/5 dark:shadow-none border border-transparent dark:border-line-dark px-4 py-6 md:px-6 md:py-7 lg:px-10 lg:py-14"
     >
       <Reveal>
-        <h2 className="text-2xl md:text-3xl lg:text-4xl text-center font-bold font-playFair text-slate-900 dark:text-white">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl text-center font-bold font-playFair text-navy dark:text-body-dark">
           About <span className="italic">Me</span>
         </h2>
       </Reveal>
@@ -21,7 +21,7 @@ function About() {
         </Reveal>
 
         <Reveal delay={0.15} className="lg:w-7/12">
-          <div className="space-y-4 text-base/[22px] md:text-base/7 lg:text-lg text-justify font-lato text-slate-700 dark:text-slate-300 lg:space-y-6">
+          <div className="space-y-4 text-base/[22px] md:text-base/7 lg:text-lg text-justify font-lato text-body dark:text-muted-dark lg:space-y-6">
             <p>
               I&apos;m Shubham Bhatia, deeply passionate about product management and bridging technical
               expertise with user-centric design. Fully focused on building meaningful products, it&apos;s
@@ -50,7 +50,7 @@ function About() {
             {tools.map((tool) => (
               <li
                 key={tool}
-                className="text-xs font-lato font-medium px-3 py-1.5 rounded-full bg-indigo-50 text-indigo-700 dark:bg-indigo-500/10 dark:text-indigo-300"
+                className="text-xs font-lato font-medium px-3 py-1.5 rounded-full bg-accent/10 text-accent-text dark:bg-accent/10 dark:text-accent-dark"
               >
                 {tool}
               </li>
