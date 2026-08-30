@@ -12,32 +12,41 @@ export default {
         "sm": "560px",
       },
       colors: {
-        // 60% — dominant neutral surface
+        // 60% — dominant neutral surface (Marshmallow)
         surface: {
-          DEFAULT: "#F6F7F9",
-          elevated: "#FFFFFF",
-          dark: "#081B2E",
-          "dark-elevated": "#0F2A43",
+          DEFAULT: "#f0eee4",
+          elevated: "#ffffff",
+          dark: "#2b241f",
+          "dark-elevated": "#3f352f",
         },
-        // 30% — brand navy: headings, primary text, nav, footer, dark sections
-        navy: "#0A2540",
+        // 30% — brand espresso (Delicioso): headings, primary text, nav, footer, dark sections
+        ink: "#3f352f",
         // borders / dividers
         line: {
-          DEFAULT: "#E2E8F0",
-          dark: "#1E3A56",
+          DEFAULT: "#e0dccd",
+          dark: "#5a4d43",
         },
         // body copy
         body: {
-          DEFAULT: "#475569",
-          muted: "#64748B",
-          dark: "#F6F7F9",
-          "muted-dark": "#94A3B8",
+          DEFAULT: "#5a4d43",
+          muted: "#746657",
+          dark: "#f0eee4",
         },
-        // 10% — teal accent: CTAs, links, active/highlight states
-        accent: {
-          DEFAULT: "#14B8A6",
-          text: "#0F766E",
-          dark: "#2DD4BF",
+        "muted-dark": "#cabfb0",
+        // 10% — Doe/caramel accent family
+        caramel: {
+          DEFAULT: "#b98e68", // Doe — LARGE fills only: decorative shapes, stat numbers, hover fills. Never text/borders/rings.
+          text: "#7c5a3a", // roasted caramel — text/links/accent CTA fill
+          dark: "#d4ad86", // light caramel — text/accent on espresso (dark-mode or feature-section) surfaces
+        },
+        // semantic states, retinted warm, centralized as tokens
+        success: {
+          DEFAULT: "#4d6b3f",
+          dark: "#9bbf8a",
+        },
+        danger: {
+          DEFAULT: "#9a3b2e",
+          dark: "#f2a488",
         },
       },
       fontFamily: {
