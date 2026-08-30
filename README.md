@@ -1,13 +1,13 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&size=32&duration=2800&pause=1200&color=14B8A6&center=true&vCenter=true&width=560&lines=Shubham+Bhatia;Product+Engineer;Building+Data-Driven+Products" alt="Typing animation: Shubham Bhatia — Product Engineer" />
+<img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&size=32&duration=2800&pause=1200&color=7C5A3A&center=true&vCenter=true&width=560&lines=Shubham+Bhatia;Product+Engineer;Building+Data-Driven+Products" alt="Typing animation: Shubham Bhatia — Product Engineer" />
 
 ### Personal portfolio — [shubhambhatia.in](https://shubhambhatia.in)
 
-[![Live Site](https://img.shields.io/badge/live%20site-shubhambhatia.in-14B8A6?style=for-the-badge&logo=googlechrome&logoColor=white)](https://shubhambhatia.in)
-[![Last Commit](https://img.shields.io/github/last-commit/shubhambhatia2103/Shubham-s-Portfolio?style=for-the-badge&color=0A2540&labelColor=0A2540)](https://github.com/shubhambhatia2103/Shubham-s-Portfolio/commits/master)
-[![Repo Size](https://img.shields.io/github/repo-size/shubhambhatia2103/Shubham-s-Portfolio?style=for-the-badge&color=0A2540&labelColor=0A2540)](https://github.com/shubhambhatia2103/Shubham-s-Portfolio)
-[![Stars](https://img.shields.io/github/stars/shubhambhatia2103/Shubham-s-Portfolio?style=for-the-badge&color=0A2540&labelColor=0A2540)](https://github.com/shubhambhatia2103/Shubham-s-Portfolio/stargazers)
+[![Live Site](https://img.shields.io/badge/live%20site-shubhambhatia.in-7C5A3A?style=for-the-badge&logo=googlechrome&logoColor=white)](https://shubhambhatia.in)
+[![Last Commit](https://img.shields.io/github/last-commit/shubhambhatia2103/Shubham-s-Portfolio?style=for-the-badge&color=3F352F&labelColor=3F352F)](https://github.com/shubhambhatia2103/Shubham-s-Portfolio/commits/master)
+[![Repo Size](https://img.shields.io/github/repo-size/shubhambhatia2103/Shubham-s-Portfolio?style=for-the-badge&color=3F352F&labelColor=3F352F)](https://github.com/shubhambhatia2103/Shubham-s-Portfolio)
+[![Stars](https://img.shields.io/github/stars/shubhambhatia2103/Shubham-s-Portfolio?style=for-the-badge&color=3F352F&labelColor=3F352F)](https://github.com/shubhambhatia2103/Shubham-s-Portfolio/stargazers)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset=".github/assets/hero-dark.png">
@@ -136,7 +136,7 @@ src/
 
 ## Design system
 
-Colors are defined once as Tailwind theme tokens (`tailwind.config.js`) and referenced by name everywhere else — components never hardcode hex values. The palette follows a 60/30/10 balance: neutral surface dominant, navy for structure and text, teal reserved for interactive/highlight moments.
+Colors are defined once as Tailwind theme tokens (`tailwind.config.js`) and referenced by name everywhere else — components never hardcode hex values. The palette ("Delicioso / Doe / Marshmallow") follows a 60/30/10 balance: warm neutral surface dominant, espresso for structure and text, caramel reserved for interactive/highlight moments.
 
 <details>
 <summary><b>Click to expand the token table</b></summary>
@@ -145,16 +145,16 @@ Colors are defined once as Tailwind theme tokens (`tailwind.config.js`) and refe
 
 | Token | Value | Role |
 |---|---|---|
-| `surface` | ![#F6F7F9](https://img.shields.io/badge/-F6F7F9-F6F7F9?style=flat-square) `#F6F7F9` | Page / section background (60%) |
-| `surface-elevated` | ![#FFFFFF](https://img.shields.io/badge/-FFFFFF-FFFFFF?style=flat-square) `#FFFFFF` | Card surfaces |
-| `navy` | ![#0A2540](https://img.shields.io/badge/-0A2540-0A2540?style=flat-square) `#0A2540` | Headings, nav, footer, dark sections (30%) |
-| `body` | ![#475569](https://img.shields.io/badge/-475569-475569?style=flat-square) `#475569` | Body text — 7.1:1 on `surface` |
-| `line` | ![#E2E8F0](https://img.shields.io/badge/-E2E8F0-E2E8F0?style=flat-square) `#E2E8F0` | Borders / dividers |
-| `accent` | ![#14B8A6](https://img.shields.io/badge/-14B8A6-14B8A6?style=flat-square) `#14B8A6` | CTA fills (10%) |
-| `accent-text` | ![#0F766E](https://img.shields.io/badge/-0F766E-0F766E?style=flat-square) `#0F766E` | Accent as text/link — 5.1:1 on `surface` |
-| `accent-dark` | ![#2DD4BF](https://img.shields.io/badge/-2DD4BF-2DD4BF?style=flat-square) `#2DD4BF` | Accent text on dark surfaces — 8.4:1 on `navy` |
+| `surface` | ![#f0eee4](https://img.shields.io/badge/-f0eee4-f0eee4?style=flat-square) `#f0eee4` | Page / section background (60%) |
+| `surface-elevated` | ![#ffffff](https://img.shields.io/badge/-ffffff-ffffff?style=flat-square) `#ffffff` | Card surfaces |
+| `ink` | ![#3f352f](https://img.shields.io/badge/-3f352f-3f352f?style=flat-square) `#3f352f` | Headings, nav, footer, dark sections (30%) |
+| `body` | ![#5a4d43](https://img.shields.io/badge/-5a4d43-5a4d43?style=flat-square) `#5a4d43` | Body text — 7.0:1 on `surface` |
+| `line` | ![#e0dccd](https://img.shields.io/badge/-e0dccd-e0dccd?style=flat-square) `#e0dccd` | Borders / dividers |
+| `caramel` | ![#b98e68](https://img.shields.io/badge/-b98e68-b98e68?style=flat-square) `#b98e68` | Large fills only — decorative shapes, hover glows (10%) |
+| `caramel-text` | ![#7c5a3a](https://img.shields.io/badge/-7c5a3a-7c5a3a?style=flat-square) `#7c5a3a` | Caramel as text/link/CTA fill — 5.3:1 on `surface` |
+| `caramel-dark` | ![#d4ad86](https://img.shields.io/badge/-d4ad86-d4ad86?style=flat-square) `#d4ad86` | Caramel text on espresso surfaces — 5.8:1 on `ink` |
 
-Every pairing above is checked against WCAG 2.2 AA (4.5:1 normal text, 3:1 large text/UI). Focus rings use the accent tone; `#14B8A6` is never used as small text or a thin border since it falls short of 3:1 on its own.
+Every pairing above is checked against WCAG 2.2 AA (4.5:1 normal text, 3:1 large text/UI). Focus rings use `caramel-text`/`caramel-dark`; `#b98e68` (Doe) is never used as small text or a thin border since it falls short of 3:1 on its own — it's restricted to large fills.
 
 </details>
 
@@ -170,10 +170,10 @@ The [Contact](src/Components/Contact.jsx) section posts directly to [Formspree](
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-0A2540?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shubhambhatia2103)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A2540?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shubhambhatia2103/)
-[![Instagram](https://img.shields.io/badge/Instagram-0A2540?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/6eingshubham/)
-[![Twitter](https://img.shields.io/badge/Twitter-0A2540?style=for-the-badge&logo=x&logoColor=white)](https://x.com/whoodattboyy)
+[![GitHub](https://img.shields.io/badge/GitHub-3F352F?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shubhambhatia2103)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-3F352F?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shubhambhatia2103/)
+[![Instagram](https://img.shields.io/badge/Instagram-3F352F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/6eingshubham/)
+[![Twitter](https://img.shields.io/badge/Twitter-3F352F?style=for-the-badge&logo=x&logoColor=white)](https://x.com/whoodattboyy)
 
 <br>
 
