@@ -7,10 +7,10 @@ function About() {
   return (
     <section
       id="about"
-      className="scroll-mt-24 rounded-2xl bg-surface-elevated dark:bg-surface-dark-elevated shadow-xl shadow-navy/5 dark:shadow-none border border-transparent dark:border-line-dark px-4 py-6 md:px-6 md:py-7 lg:px-10 lg:py-14"
+      className="scroll-mt-24 rounded-2xl bg-surface-elevated dark:bg-surface-dark-elevated shadow-xl shadow-ink/5 dark:shadow-none border border-transparent dark:border-line-dark px-4 py-6 md:px-6 md:py-7 lg:px-10 lg:py-14"
     >
       <Reveal>
-        <h2 className="text-2xl md:text-3xl lg:text-4xl text-center font-bold font-playFair text-navy dark:text-body-dark">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl text-center font-bold font-playFair text-ink dark:text-body-dark">
           About <span className="italic">Me</span>
         </h2>
       </Reveal>
@@ -50,7 +50,7 @@ function About() {
             {tools.map((tool) => (
               <li
                 key={tool}
-                className="text-xs font-lato font-medium px-3 py-1.5 rounded-full bg-accent/10 text-accent-text dark:bg-accent/10 dark:text-accent-dark"
+                className="text-xs font-lato font-medium px-3 py-1.5 rounded-full bg-surface border border-line text-ink dark:bg-surface-dark dark:border-line-dark dark:text-body-dark"
               >
                 {tool}
               </li>

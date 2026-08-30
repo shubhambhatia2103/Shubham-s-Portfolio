@@ -16,14 +16,23 @@ html {
 }
 
 ::selection {
-  background-color: rgb(20 184 166 / 0.3);
+  background-color: rgb(185 142 104 / 0.3);
 }
 
 :focus-visible {
-  outline: 2px solid #0F766E;
+  outline: 2px solid #7c5a3a;
   outline-offset: 2px;
 }
 
 .dark :focus-visible {
-  outline-color: #2DD4BF;
+  outline-color: #d4ad86;
+}
+
+/* Nav, footer, and the Contact feature section are always rendered on an
+   espresso surface regardless of the light/dark toggle, so their focus
+   rings need the light-caramel tone (#7c5a3a fails 3:1 on espresso). */
+header :focus-visible,
+footer :focus-visible,
+#contact :focus-visible {
+  outline-color: #d4ad86;
 }

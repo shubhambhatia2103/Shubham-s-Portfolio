@@ -53,7 +53,7 @@ function Projects() {
   return (
     <section id="projects" className="scroll-mt-24 py-6 md:py-7 lg:py-14">
       <Reveal>
-        <h2 className="text-2xl md:text-3xl lg:text-4xl text-center font-bold font-playFair text-navy dark:text-body-dark">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl text-center font-bold font-playFair text-ink dark:text-body-dark">
           Projects
         </h2>
       </Reveal>
@@ -61,7 +61,7 @@ function Projects() {
       <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4">
         {projects.map((project, index) => (
           <Reveal key={project.title} delay={(index % 4) * 0.08}>
-            <div className="group flex h-full flex-col gap-3 rounded-2xl bg-surface-elevated dark:bg-surface-dark-elevated border border-transparent dark:border-line-dark shadow-lg shadow-navy/5 dark:shadow-none px-5 py-6 transition-all duration-300 hover:-translate-y-1.5 hover:shadow-xl hover:shadow-accent/10">
+            <div className="group flex h-full flex-col gap-3 rounded-2xl bg-surface-elevated dark:bg-surface-dark-elevated border border-transparent dark:border-line-dark shadow-lg shadow-ink/5 dark:shadow-none px-5 py-6 transition-all duration-300 hover:-translate-y-1.5 hover:shadow-xl hover:shadow-caramel/20">
               <div className="h-36 w-full overflow-hidden rounded-lg flex items-center justify-center bg-surface dark:bg-surface-dark">
                 <img
                   src={project.image}
@@ -69,14 +69,14 @@ function Projects() {
                   className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
                 />
               </div>
-              <h3 className="font-lato text-lg font-semibold text-navy dark:text-body-dark">
+              <h3 className="font-lato text-lg font-semibold text-ink dark:text-body-dark">
                 {project.title}
               </h3>
               <ul className="flex flex-wrap items-center gap-2 text-xs">
                 {project.tags.map((tag) => (
                   <li
                     key={tag}
-                    className="rounded-full bg-accent/10 dark:bg-accent/10 px-2 py-1 text-accent-text dark:text-accent-dark font-medium"
+                    className="rounded-full bg-surface border border-line dark:bg-surface-dark dark:border-line-dark px-2 py-1 text-ink dark:text-body-dark font-medium"
                   >
                     {tag}
                   </li>
@@ -91,7 +91,7 @@ function Projects() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={`${project.title} on GitHub`}
-                  className="hover:text-accent-text dark:hover:text-accent-dark transition-colors duration-200"
+                  className="hover:text-caramel-text dark:hover:text-caramel-dark transition-colors duration-200"
                 >
                   <FaGithub />
                 </a>
@@ -100,7 +100,7 @@ function Projects() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={`${project.title} write-up on Medium`}
-                  className="hover:text-accent-text dark:hover:text-accent-dark transition-colors duration-200"
+                  className="hover:text-caramel-text dark:hover:text-caramel-dark transition-colors duration-200"
                 >
                   <FaMedium />
                 </a>
