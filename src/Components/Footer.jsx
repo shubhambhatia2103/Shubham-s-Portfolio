@@ -9,7 +9,7 @@ const links = [
 
 function Footer() {
   return (
-    <footer className="space-y-6 py-8 border-t border-slate-200 dark:border-slate-800">
+    <footer className="space-y-6 py-8 bg-navy dark:bg-surface-dark-elevated border-t border-line-dark">
       <ul className="flex items-center justify-center gap-6 md:gap-10">
         {links.map(({ href, label, icon: Icon }) => (
           <li key={label}>
@@ -18,7 +18,7 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label={label}
-              className="flex items-center gap-2 text-slate-500 dark:text-slate-400 hover:text-indigo-500 dark:hover:text-indigo-400 transition-colors duration-200"
+              className="flex items-center gap-2 text-body-dark/80 hover:text-accent-dark transition-colors duration-200"
             >
               <Icon size={18} />
               <span className="hidden sm:inline font-lato text-sm">{label}</span>
@@ -26,7 +26,7 @@ function Footer() {
           </li>
         ))}
       </ul>
-      <p className="text-center text-sm text-slate-400 dark:text-slate-500 font-lato">
+      <p className="text-center text-sm text-muted-dark font-lato">
         © {new Date().getFullYear()} Shubham Bhatia. All rights reserved.
       </p>
     </footer>

@@ -11,6 +11,35 @@ export default {
       screens: {
         "sm": "560px",
       },
+      colors: {
+        // 60% — dominant neutral surface
+        surface: {
+          DEFAULT: "#F6F7F9",
+          elevated: "#FFFFFF",
+          dark: "#081B2E",
+          "dark-elevated": "#0F2A43",
+        },
+        // 30% — brand navy: headings, primary text, nav, footer, dark sections
+        navy: "#0A2540",
+        // borders / dividers
+        line: {
+          DEFAULT: "#E2E8F0",
+          dark: "#1E3A56",
+        },
+        // body copy
+        body: {
+          DEFAULT: "#475569",
+          muted: "#64748B",
+          dark: "#F6F7F9",
+          "muted-dark": "#94A3B8",
+        },
+        // 10% — teal accent: CTAs, links, active/highlight states
+        accent: {
+          DEFAULT: "#14B8A6",
+          text: "#0F766E",
+          dark: "#2DD4BF",
+        },
+      },
       fontFamily: {
         cursive: [' "Dancing Script" ',' "Caveat" ','cursive'],
         playFair: ['"Playfair Display"', 'serif'],
