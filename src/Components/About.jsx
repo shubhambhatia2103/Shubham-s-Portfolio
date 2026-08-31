@@ -56,7 +56,28 @@ function About() {
               Outside of work, same restlessness, different plate, usually messing around in the kitchen
               with a recipe I haven&apos;t quite figured out, jazz on in the background. Stoic philosophy
               keeps me from losing my head when a product cycle goes sideways, which it always does
-              eventually. Connect on LinkedIn or check GitHub for what I&apos;m currently building.
+              eventually.
+            </p>
+            <p>
+              Connect on{" "}
+              <a
+                href="https://www.linkedin.com/in/shubhambhatia2103/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-caramel-text dark:text-caramel-dark hover:underline underline-offset-2 transition-colors duration-200"
+              >
+                LinkedIn
+              </a>{" "}
+              or check{" "}
+              <a
+                href="https://github.com/shubhambhatia2103"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-caramel-text dark:text-caramel-dark hover:underline underline-offset-2 transition-colors duration-200"
+              >
+                GitHub
+              </a>{" "}
+              for what I&apos;m currently building.
             </p>
           </div>
 
