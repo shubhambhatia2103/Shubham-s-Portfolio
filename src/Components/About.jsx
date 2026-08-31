@@ -23,26 +23,27 @@ function About() {
         <Reveal delay={0.15} className="lg:w-7/12">
           <div className="space-y-4 text-base/[22px] md:text-base/7 lg:text-lg text-justify font-lato text-body dark:text-muted-dark lg:space-y-6">
             <p>
-              I&apos;m Shubham Bhatia, deeply passionate about product management and bridging technical
-              expertise with user-centric design. Fully focused on building meaningful products, it&apos;s
-              exciting to bring ideas to life—whether through feature prioritization, roadmapping, or A/B
-              testing. Every decision is made with a keen appreciation for user experience, seamless
-              functionality, and delivering meaningful value.
+              I&apos;m Shubham Bhatia. I got into product for the control of it, the design, the
+              implementation, the whole shape of a thing before someone else touches it. Spent four years
+              in engineering school learning how things are built, then found out the more interesting
+              question is why they break. I&apos;m the user first and the analyst second, and I&apos;ve
+              never trusted a product I wouldn&apos;t use myself.
             </p>
             <p>
-              The journey began in 2020, and over time, I&apos;ve grown into a role that aligns
-              data-driven insights with product strategies. By leveraging strong cloud technologies like
-              AWS and tools such as Figma, the aim is always to ensure a seamless connection between the
-              technical and product sides. Now, with four years of relevant experience, the focus is on
-              pushing boundaries to create products that are efficient, intuitive, and user-friendly.
+              2 years into doing this properly now, building product for a US healthcare platform. Cloud
+              background, AWS, the usual technical scaffolding, but the actual job is smaller and uglier
+              than that sounds. Tracing why a field came back wrong. Reading documentation nobody else will
+              read. Sitting with something half-built until it isn&apos;t anymore. I&apos;d rather ship
+              something badly and fix it in daylight than admire a roadmap for it.
             </p>
             <p>
-              Outside of work, you can generally find me messing around in the kitchen trying out a new
-              recipe or finding a just-so way to relax with some jazz playing in the background. I&apos;m
-              also deeply inspired by stoic philosophy and find it really helps me stay grounded, which is
-              a little bit of a lifesaver when it&apos;s crunch time with a product cycle. Feel free to
-              connect with me on LinkedIn or check out my GitHub where I share my latest projects and
-              ideas!
+              Outside of work, same restlessness, different plate, usually messing around in the kitchen
+              with a recipe I haven&apos;t quite figured out, jazz on in the background. Stoic philosophy
+              keeps me from losing my head when a product cycle goes sideways, which it always does
+              eventually.
+            </p>
+            <p>
+              Connect on LinkedIn or check GitHub for what I&apos;m currently building.
             </p>
           </div>
 
