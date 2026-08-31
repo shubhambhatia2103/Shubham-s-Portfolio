@@ -1,7 +1,22 @@
 import lap from "../assets/laptop.png";
 import Reveal from "./Reveal";
 
-const tools = ["AWS", "Figma", "Notion", "SQL", "A/B Testing", "Roadmapping"];
+const tools = [
+  "Product Strategy",
+  "AI-Assisted Workflow Design",
+  "Event-Driven Architecture",
+  "API Integrations",
+  "Root Cause Analysis & Observability",
+  "Healthcare Systems Interoperability",
+  "Python",
+  "SQL",
+  "AWS",
+  "Claude Code",
+  "n8n",
+  "Notion",
+  "Figma",
+  "JIRA",
+];
 
 function About() {
   return (
@@ -30,20 +45,18 @@ function About() {
               never trusted a product I wouldn&apos;t use myself.
             </p>
             <p>
-              2 years into doing this properly now, building product for a US healthcare platform. Cloud
-              background, AWS, the usual technical scaffolding, but the actual job is smaller and uglier
-              than that sounds. Tracing why a field came back wrong. Reading documentation nobody else will
-              read. Sitting with something half-built until it isn&apos;t anymore. I&apos;d rather ship
-              something badly and fix it in daylight than admire a roadmap for it.
+              2 years at Dozee now, building AI-powered healthcare product. Spent a good chunk of it in the
+              unglamorous middle, tracing ADT event failures back to root cause across a healthcare data
+              pipeline, and separately building RevOps product to keep the revenue pipeline honest. Got
+              nominated for Employee of the Month for it, and later nominated for the company&apos;s first
+              AI Excellence Award, alongside stakeholders and the founder. I&apos;d rather ship something
+              badly and fix it in daylight than admire a roadmap for it.
             </p>
             <p>
               Outside of work, same restlessness, different plate, usually messing around in the kitchen
               with a recipe I haven&apos;t quite figured out, jazz on in the background. Stoic philosophy
               keeps me from losing my head when a product cycle goes sideways, which it always does
-              eventually.
-            </p>
-            <p>
-              Connect on LinkedIn or check GitHub for what I&apos;m currently building.
+              eventually. Connect on LinkedIn or check GitHub for what I&apos;m currently building.
             </p>
           </div>
 
