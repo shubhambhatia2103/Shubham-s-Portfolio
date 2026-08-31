@@ -64,7 +64,7 @@ function About() {
                 href="https://www.linkedin.com/in/shubhambhatia2103/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-medium text-caramel-text dark:text-caramel-dark hover:underline underline-offset-2 transition-colors duration-200"
+                className="font-bold text-caramel-text dark:text-caramel-dark hover:underline underline-offset-2 transition-colors duration-200"
               >
                 LinkedIn
               </a>{" "}
@@ -73,7 +73,7 @@ function About() {
                 href="https://github.com/shubhambhatia2103"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-medium text-caramel-text dark:text-caramel-dark hover:underline underline-offset-2 transition-colors duration-200"
+                className="font-bold text-caramel-text dark:text-caramel-dark hover:underline underline-offset-2 transition-colors duration-200"
               >
                 GitHub
               </a>{" "}
