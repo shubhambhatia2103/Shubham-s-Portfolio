@@ -37,7 +37,7 @@ function Navbar({ isDark, setIsDark }) {
       <div className="flex items-center justify-between px-5 py-4 md:px-10 lg:px-20">
         <div className="flex items-center gap-3 lg:gap-5">
           <a href="#" aria-label="Shubham Bhatia — home">
-            <img src="/logo.png" alt="Shubham Bhatia" className="h-7 w-auto lg:h-8" />
+            <img src="/shubhamb-logo-03.png" alt="Shubham Bhatia" className="h-7 w-auto lg:h-8" />
           </a>
           <a
             href="https://drive.google.com/file/d/1V0M9R1j_rNhdKrSEPizKf9BW-aRsBfyG/view"
